@@ -1,12 +1,12 @@
-using System;
 
-namespace _1111222
-{
     class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
-        }
-    }
-}
+            Console.WriteLine("Привет мир!");
+            Console.WriteLine("Введите вашу фамилию:");
+            string lastName = Console.ReadLine();
+            Console.WriteLine("Ваша фамилия: " + lastName);
+            Console.WriteLine("Введите ваш возраст:");
+            int age = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Ваш возраст: " + age);
